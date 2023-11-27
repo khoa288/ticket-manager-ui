@@ -48,7 +48,7 @@ const TicketInfoForm = () => {
 				setTicketInfo(response.data);
 			} else {
 				setLoading(false);
-				alert("An error occurred while updating the ticket status.");
+				alert("Please check your inputs and try again.");
 			}
 		} catch (error) {
 			setLoading(false);

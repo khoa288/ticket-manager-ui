@@ -27,7 +27,7 @@ export default function Login() {
 				navigate("/dashboard");
 			} else {
 				setLoading(false);
-				alert(response.data);
+				alert("Please check your inputs and try again.");
 			}
 		} catch (error) {
 			setLoading(false);

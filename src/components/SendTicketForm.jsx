@@ -31,7 +31,7 @@ const SendTicketForm = () => {
 				alert("Ticket sent successfully!");
 			} else {
 				setLoading(false);
-				alert("An error occurred while sending the ticket.");
+				alert("Please check your inputs and try again.");
 			}
 		} catch (error) {
 			setLoading(false);

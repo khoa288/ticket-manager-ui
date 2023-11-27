@@ -29,7 +29,7 @@ export default function Dashboard() {
 				navigate("/");
 			} else {
 				setLoading(false);
-				alert("An error occurred while logging out. Please try again.");
+				alert("Please try again.");
 			}
 		} catch (error) {
 			setLoading(false);
