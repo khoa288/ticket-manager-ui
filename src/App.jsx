@@ -8,14 +8,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Login />} />
-				<Route
-					path="/dashboard"
-					element={
-						<PrivateRoute>
-							<Dashboard />
-						</PrivateRoute>
-					}
-				/>
+				<Route path="/dashboard" element={<Dashboard />} />
 				<Route path="*" element={<Navigate to="/" replace />} />
 			</Routes>
 		</BrowserRouter>
