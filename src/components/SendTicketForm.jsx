@@ -6,7 +6,7 @@ const SendTicketForm = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [studentId, setStudentId] = useState("");
-	const [amount, setAmount] = useState("");
+	// const [amount, setAmount] = useState("");
 	const [loading, setLoading] = useState(false);
 
 	const handleSubmit = async (e) => {
@@ -20,7 +20,7 @@ const SendTicketForm = () => {
 					name,
 					email,
 					studentId,
-					amount,
+					// amount,
 				},
 				{
 					withCredentials: true,
@@ -73,13 +73,13 @@ const SendTicketForm = () => {
 						onChange={(e) => setStudentId(e.target.value)}
 						className="border p-2 w-full"
 					/>
-					<input
+					{/* <input
 						type="number"
 						placeholder="Amount"
 						value={amount}
 						onChange={(e) => setAmount(e.target.value)}
 						className="border p-2 w-full"
-					/>
+					/> */}
 					<button
 						type="submit"
 						className="bg-blue-500 text-white py-2 px-4 mt-2 hover:bg-blue-600 transition duration-300 rounded"

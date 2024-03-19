@@ -8,6 +8,7 @@ import SearchTicketsForm from "../components/SearchTicketsForm";
 import TicketStats from "../components/TicketStats";
 import TicketInfoForm from "../components/TicketInfoForm";
 import ExportTickets from "../components/ExportTickets";
+import TicketUploadForm from "../components/TicketUploadForm";
 
 export default function Dashboard() {
 	const navigate = useNavigate();
@@ -76,6 +77,8 @@ export default function Dashboard() {
 				{/* Components */}
 				<hr />
 				<SendTicketForm />
+				<hr />
+				<TicketUploadForm />
 				<hr />
 				<SearchTicketsForm />
 				<hr />
