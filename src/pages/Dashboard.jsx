@@ -77,10 +77,10 @@ export default function Dashboard() {
 				{/* Components */}
 				<hr />
 				<SendTicketForm />
-				<hr />
+				{/* <hr />
 				<TicketUploadForm />
 				<hr />
-				<SearchTicketsForm />
+				<SearchTicketsForm /> */}
 				<hr />
 				<TicketInfoForm />
 				<hr />
