@@ -78,9 +78,9 @@ export default function Dashboard() {
 				<hr />
 				<SendTicketForm />
 				{/* <hr />
-				<TicketUploadForm />
+				<TicketUploadForm /> */}
 				<hr />
-				<SearchTicketsForm /> */}
+				<SearchTicketsForm />
 				<hr />
 				<TicketInfoForm />
 				<hr />
